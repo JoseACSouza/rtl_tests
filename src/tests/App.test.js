@@ -3,7 +3,7 @@ import { screen } from '@testing-library/react';
 import { act } from 'react-dom/test-utils';
 import userEvent from '@testing-library/user-event';
 import App from '../App';
-import renderWithRouter from './utils/renderWithRouter';
+import renderWithRouter from '../renderWithRouter';
 
 describe('Testes relacionados ao App.js', () => {
   it('Verifica se os links de navegação contém um conjunto fixo de 3 links no App.js', () => {

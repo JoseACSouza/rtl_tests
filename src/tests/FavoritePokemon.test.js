@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import FavoritePokemon from '../pages/FavoritePokemon';
-import renderWithRouter from './utils/renderWithRouter';
+import renderWithRouter from '../renderWithRouter';
 
 const pokemonList = [
   {

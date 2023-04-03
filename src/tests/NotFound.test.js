@@ -5,7 +5,10 @@ import NotFound from '../pages/NotFound';
 describe('Testes relacionados ao NotFound.js', () => {
   it('Teste se a página contém um heading h2 com o texto Page requested not found;', () => {
     render(<NotFound />);
-    const verifyHeading = screen.getByRole('heading', { name: 'Page requested not found' });
+    const verifyHeading = screen.getByRole('heading', {
+      level: 2,
+      name: 'Page requested not found',
+    });
 
     expect(verifyHeading).toBeInTheDocument();
   });
