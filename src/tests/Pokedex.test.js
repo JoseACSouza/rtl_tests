@@ -5,8 +5,6 @@ import pokemonList from '../data';
 import renderWithRouter from '../renderWithRouter';
 import Pokedex from '../pages/Pokedex';
 
-// EM PROGRESSO
-
 const pokemonName = 'pokemon-name';
 const textNextPokemon = 'Próximo Pokémon';
 
