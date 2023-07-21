@@ -1,4 +1,4 @@
-# :construction: README em construção ! :construction:
+# 🦑 Neste projeto desenvolvo os testes utilizando React Testing Library
 <!-- Olá, Tryber!
 Esse é apenas um arquivo inicial para o README do seu projeto.
 É essencial que você preencha esse documento por conta própria, ok?
